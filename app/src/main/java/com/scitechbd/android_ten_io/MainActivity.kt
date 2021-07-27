@@ -36,7 +36,7 @@ class MainActivity : AppCompatActivity() {
 
         // todo: add private mode in shared pref and merge code in Files class in mukher kotha project
         tryWithErrorDialog(this, "getting file directory got error") {
-            //todo: make the directory biblically accessible
+            //todo: make the directory publicly accessible
             directory = getDir("imageDir", MODE_PRIVATE)
         }
 
